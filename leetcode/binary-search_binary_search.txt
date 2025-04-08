@@ -1,9 +1,14 @@
-function search(nums: number[], target: number): number {
-    let [l,r] = [0,nums.length-1];
-    while (l<=r) {
-        const mid = (l+r)>>1;
-        if(nums[mid] === target) return mid;
-        [l,r] = nums[mid] > target ? [l,mid-1] : [mid+1,r];
+class Solution {
+public:
+    int search(vector<int>& nums, int target) {
+        int n = nums.size();
+        int low = 0 , high = n-1;
+        while(low <= high) {
+            int mid = (low+high)/2;
+            if(nums[mid] == target) return mid;
+            else if (target > nums[mid]) low = mid+1;
+            else high = mid-1;
+        }
+        return -1;
     }
-    return -1;
 };
