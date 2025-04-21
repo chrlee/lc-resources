@@ -1,0 +1,1 @@
+for(let i = lower; i <= upper; ++i){        if(i + maxDiff <= upper && i + minDiff >= lower) count++;    }    }    return count;};        maxDiff = Math.max(maxDiff, diff);        minDiff = Math.min(minDiff, diff);        diff += differences[i];    for(let i = 0; i < differences.length; ++i){    let diff = 0;    let [count, maxDiff, minDiff] = [0, -Infinity, Infinity];{
