@@ -1,0 +1,1 @@
+changes++;                    state[i] = 'L';                if(out.at(i+1) === 'L' && out.at(i) === '.'){            if(i === 0){        for(let i = 0; i < out.length; ++i){        changes = 0;        let state = out.slice();    while(changes !== 0){    let out = dominoes.split('');    let changes = 1;function pushDominoes(dominoes: string): string {                }
