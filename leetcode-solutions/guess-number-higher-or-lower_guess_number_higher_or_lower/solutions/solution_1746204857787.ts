@@ -1,0 +1,1 @@
+let [l,r] = [1,n];function guessNumber(n: number): number {    while(l <= r){        const mid = (l+r)>>>1;        const result = guess(mid);        if(result === 0) return mid;        [l,r] = result === -1 ? [l,mid-1] : [mid+1,r]    }    return -1; */ * var guess = function(num) {}
