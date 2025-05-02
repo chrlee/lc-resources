@@ -1,0 +1,1 @@
+if(isBadVersion(mid)){                if(mid === 0) return mid;                else if(!isBadVersion(mid-1)) return mid;                else r = mid-1;            } else l = mid+1;        }        return -1;    };};
