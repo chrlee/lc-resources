@@ -1,0 +1,1 @@
+function isPerfectSquare(num: number): boolean {    let [l,r] = [0, num];    while(l<=r){        const mid = (l+r)>>1;        if(mid*mid === num) return true;        [l,r] = mid*mid > num ? [l,mid-1] : [mid+1,r]    }    return false};
