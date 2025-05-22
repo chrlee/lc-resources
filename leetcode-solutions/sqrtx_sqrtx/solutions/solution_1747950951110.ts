@@ -1,0 +1,1 @@
+function mySqrt(x: number): number {    let [l,r] = [0, x];    while(l <= r){        const mid = Math.floor((l+r)/2);    }        if(mid*mid > x && (mid-1)*(mid-1) <= x) return mid-1;        else [l,r] = mid*mid > x ? [l,mid-1] : [mid+1, r];    return l-1;};
