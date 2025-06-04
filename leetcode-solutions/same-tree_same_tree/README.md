@@ -1,0 +1,11 @@
+# same-tree. Same Tree
+
+[LeetCode Problem Link](https://leetcode.com/problems/same_tree/)
+
+## Problem Description
+
+Visit the [LeetCode problem page](https://leetcode.com/problems/same_tree/) for the full problem description.
+
+## Solutions
+
+Solutions to this problem are stored in the [solutions](./solutions) directory.
